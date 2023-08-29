@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/nathan.bradley/Documents/LinkedIn_Training_Files/SQL_Exercise_Files/Ex_Files_SQL_EssT/Exercise Files/WSDA_Music.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3345"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,5:mainTrack"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Album" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="51"/><column index="2" value="193"/><column index="3" value="48"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artist" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="48"/><column index="2" value="129"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Customer" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="69"/><column index="2" value="63"/><column index="3" value="75"/><column index="4" value="250"/><column index="5" value="226"/><column index="6" value="119"/><column index="7" value="43"/><column index="8" value="89"/><column index="9" value="74"/><column index="10" value="112"/><column index="11" value="112"/><column index="12" value="159"/><column index="13" value="80"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Employee" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="69"/><column index="2" value="59"/><column index="3" value="61"/><column index="4" value="110"/><column index="5" value="63"/><column index="6" value="120"/><column index="7" value="121"/><column index="8" value="157"/><column index="9" value="64"/><column index="10" value="36"/><column index="11" value="50"/><column index="12" value="68"/><column index="13" value="107"/><column index="14" value="107"/><column index="15" value="146"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Genre" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="49"/><column index="2" value="101"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Invoice" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="56"/><column index="2" value="69"/><column index="3" value="121"/><column index="4" value="226"/><column index="5" value="119"/><column index="6" value="68"/><column index="7" value="89"/><column index="9" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="InvoiceLine" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="77"/><column index="2" value="56"/><column index="3" value="48"/><column index="4" value="57"/><column index="5" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Playlist" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="56"/><column index="2" value="138"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="PlaylistTrack" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="56"/><column index="2" value="48"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Track" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="6" mode="1"/></sort><column_widths><column index="1" value="48"/><column index="2" value="129"/><column index="3" value="51"/><column index="4" value="75"/><column index="5" value="49"/><column index="6" value="169"/><column index="7" value="73"/><column index="8" value="78"/><column index="9" value="57"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="V_AvgTotal" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="166"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="V_Tracks_InvoiceLine" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="56"/><column index="2" value="57"/><column index="3" value="53"/><column index="4" value="119"/><column index="5" value="179"/><column index="6" value="73"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 2">/*
+Created by: Nathan Bradley
+Create Date: 08/22/2023
+Description: This queary displays first and last names with email addresses of customers
+*/
+SELECT 
+	FirstName AS [Customer First Name], 
+	LastName AS 'Customer Last Name', 
+	Email AS EMAIL
+FROM 
+	Customer
+ORDER BY
+	FirstName ASC, 
+	LastName DESC
+LIMIT 10;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Customers who purchase two songs at $0.99 each
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	total
+FROM 
+	Invoice
+WHERE
+	total = 1.98
+ORDER BY
+	InvoiceDate;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: How many invoices between $1.98 and $5.00?
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	Total
+FROM 
+	Invoice
+WHERE
+	Total BETWEEN 1.98 AND 5.00
+ORDER BY
+	InvoiceDate;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: How many invoices do we have that are exactly $1.98 or 3.96?
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	Total
+FROM 
+	Invoice
+WHERE
+	Total IN(1.98, 3.96)
+ORDER BY
+	InvoiceDate;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: How many invoices were billed to Brussels?
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	Total
+FROM 
+	Invoice
+WHERE
+	BillingCity = 'Brussels'
+ORDER BY
+	InvoiceDate;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: How many invoices were billed to Brussels, Orlando, or Paris?
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	Total
+FROM 
+	Invoice
+WHERE
+	BillingCity IN('Brussels', 'Orlando', 'Paris')
+ORDER BY
+	InvoiceDate;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: How many invoices were billed to cities that start with B?
+*/
+
+-- % is wildcard character
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity
+FROM 
+	Invoice
+WHERE
+	BillingCity LIKE 'B%'
+ORDER BY
+	InvoiceDate;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: How many invoices were billed in cities that have a B anywhere in it's name?
+*/
+
+-- % is wildcard character
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity
+FROM 
+	Invoice
+WHERE
+	BillingCity LIKE '%B%'
+ORDER BY
+	InvoiceDate;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: How many invoices were billed on 2010-05-22 00:00:00?
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity
+FROM
+	Invoice
+WHERE
+	DATE(InvoiceDate) = '2010-05-22'
+ORDER BY
+	InvoiceDate;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Get all invoices that were billed after 2010-05-22 and have a total of less than 3.00
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	Total
+FROM
+	Invoice
+WHERE
+	DATE(InvoiceDate) &gt; '2010-05-22' 
+	AND Total &lt; 3.00
+ORDER BY
+	InvoiceDate;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Get all invoices who's billing city starts with P or starts with D
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	Total
+FROM
+	Invoice
+WHERE
+	BillingCity LIKE 'P%'
+	OR BillingCity LIKE 'D%'
+ORDER BY 
+	InvoiceDate;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Get all invoices that are greater than 1.98 from any cities whose name starts with P or starts with D
+*/
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+Total
+FROM
+	Invoice
+WHERE
+	Total &gt; 1.98 
+	AND (BillingCity LIKE 'P%'
+	OR BillingCity LIKE 'D%')
+ORDER BY
+	InvoiceDate;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: They want as many customers as possible to spend between $7.00 and $15.00
+
+Sales Categories:
+Baseline Purchase -     Between $0.99 and $1.99
+Low Purchase -       Between $2.00 and $6.99
+Target Purchase -       Between $7.00 and $15.00
+Top Performer -        Above $15.00
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress, 
+	BillingCity, 
+	total,
+	CASE
+	WHEN total &lt; 2.00 THEN 'Baseline Purchase'
+	WHEN total BETWEEN 2.00 AND 6.99 THEN 'Low Purchase'
+	WHEN total BETWEEN 7.00 AND 15.00 THEN 'Target Purchase'
+	ELSE 'Top Performer'
+	END AS Purchase Type
+FROM
+	Invoice
+ORDER BY
+	InvoiceDate;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Joins
+*/	
+	
+SELECT
+	c.LastName,
+	c.FirstName,
+	i.InvoiceId,
+	i.CustomerId,
+	i.InvoiceDate,
+	i.total
+FROM
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId = c.CustomerId
+ORDER BY
+	c.CustomerId;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: JOINS on more than two tables | What employees are responsible for the 10 highest individual sales?
+*/
+
+SELECT
+	e.FirstName,
+	e.LastName,
+	e.EmployeeId,
+	c.FirstName,
+	c.LastName,
+	c.SupportRepId,
+	i.CustomerId,
+	i.total
+FROM
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId = c.CustomerId
+INNER JOIN
+	Employee AS e
+ON
+	c.SupportRepId = e.EmployeeId
+ORDER BY
+	i.total DESC
+LIMIT 10;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Create a Mailing List of US Customers
+*/
+
+SELECT
+	FirstName,
+	LastName,
+	Address,
+	FirstName ||' ' || LastName ||' ' || Address || ',  ' || City || ' ' || State || ' ' || PostalCode AS [Mailing Address],
+	length(postalcode),
+	substr(postalcode, 1,5) AS [Five Digit Postal Code],
+	upper(firstname) AS [First Name All Caps],
+	lower(lastname) AS [Last Name All Lower]
+FROM
+	Customer
+WHERE
+	Country = 'USA';
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Calculate the ages of all employees
+*/
+
+SELECT
+	LastName,
+	FirstName,
+	BirthDate,
+	strftime('%Y-%m-%d',BirthDate) AS [Birthdate No Timecode],
+	strftime('%Y-%m-%d','now') - strftime('%Y-%m-%d',BirthDate) AS [Employee Age]
+FROM
+	Employee;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Aggregate Functions || What are our all time global sales?
+*/
+
+SELECT
+	SUM(Total) AS [Total Sales],
+	AVG(Total) AS [Average Sales],
+	MAX(Total) AS [Maximum Sale],
+	MIN(Total) AS [Minimum Sale],
+	COUNT(*) AS [Sales Count]
+FROM
+	Invoice;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Nesting Functions
+*/
+
+SELECT
+	SUM(Total) AS [Total Sales],
+	round(AVG(Total), 2) AS [Average Sales],
+	MAX(Total) AS [Maximum Sale],
+	MIN(Total) AS [Minimum Sale],
+	COUNT(*) AS [Sales Count]
+FROM
+	Invoice;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Grouping in SQL | What are the average invoice totals by city?
+*/	
+	
+SELECT
+	BillingCity,
+	round(AVG(total), 2) 
+FROM
+	Invoice
+GROUP BY
+	BillingCity
+ORDER BY
+	BillingCity;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Grouping in SQL | What are the average invoice totals by city for only the citities that start with L?
+*/		
+
+SELECT
+	BillingCity,
+	round(avg(total), 2)
+FROM
+	Invoice
+WHERE
+	BillingCity like 'L%'
+GROUP BY
+	BillingCity;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Grouping in SQL | What are the average invoice totals greater than $5.00?
+*/
+
+--Having clause always comes after group by
+--Where clause is for filtering non aggregate data and having is for filtering aggregates
+
+SELECT
+	BillingCity,
+	round(avg(total), 2)
+FROM
+	Invoice
+GROUP BY
+	BillingCity
+HAVING
+	avg(total) &gt; 5
+ORDER BY
+	BillingCity;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Grouping in SQL | What are the average invoice totals greater than $5.00 for citites starting with B?
+*/
+
+SELECT
+	BillingCity,
+	round(avg(total), 2)
+FROM
+	Invoice
+WHERE
+	BillingCity LIKE 'B%'
+GROUP BY
+	BillingCity
+HAVING
+		avg(total) &gt; 5
+ORDER BY
+	BillingCity;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Grouping in SQL | What are the average invoice totals by billing country and city?
+*/
+
+SELECT
+	BillingCity,
+	BillingCountry,
+	round(avg(total), 2)
+FROM
+	Invoice
+GROUP BY
+	BillingCity,
+	BillingCountry
+ORDER BY
+	BillingCountry;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Subqueries | Gather data about all invoices that are less than this average?
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	total
+FROM
+	Invoice
+WHERE 
+	total &lt; 
+		(SELECT
+	round(avg(total), 2) AS [Average Total]
+FROM
+	Invoice)
+ORDER BY 
+	total DESC;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Subqueries in the SELECT | How is each individual city performing against the global average sales?
+*/
+
+SELECT
+	BillingCity,
+	avg(total) AS [City Average],
+	(SELECT avg(total) FROM Invoice) AS [Global Average]
+FROM
+	Invoice
+GROUP BY
+	BillingCity
+ORDER BY
+	BillingCity;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Subqueries without Aggregate functions
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity
+FROM
+	Invoice
+WHERE
+	InvoiceDate &gt; 
+(SELECT
+	InvoiceDate
+FROM
+	Invoice
+WHERE
+	InvoiceId = 251);
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Returning multiple values from a subquery
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity
+FROM
+	Invoice
+WHERE
+	InvoiceDate IN 
+(SELECT
+	InvoiceDate
+FROM
+	Invoice
+WHERE
+	InvoiceId IN (251, 252, 254));
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Subqueries and DISTINCT | Which tracks are not selling?
+*/
+
+SELECT
+	TrackId,
+	Composer,
+	Name
+FROM
+	Track
+WHERE
+	TrackId
+NOT IN
+(SELECT
+	DISTINCT
+	TrackId
+FROM
+	InvoiceLine
+ORDER BY
+	TrackId);
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Views
+*/
+
+CREATE VIEW V_AvgTotal AS 
+SELECT
+	round(avg(total), 2) AS [Average Total]
+FROM
+	Invoice;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Views and Joins
+*/
+
+CREATE VIEW V_Tracks_InvoiceLine AS
+SELECT
+	il.InvoiceId,
+	il.UnitPrice,
+	il.Quantity,
+	t.Name,
+	t.Composer,
+	t.Milliseconds
+FROM
+	InvoiceLine il
+INNER JOIN
+	Track t
+ON
+	il.TrackId=t.TrackId;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Deleting Views
+*/
+
+DROP VIEW
+	V_AvgTotal;
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: DML | Inserting Data
+*/
+
+INSERT INTO
+	Artist (Name)
+VALUES ('Bob Marley');
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: DML | Updating Data
+*/
+
+UPDATE
+Artist
+SET Name = 'Damien Marley'
+WHERE
+	ArtistId = 276;
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: DML | Deleting Data
+*/
+
+DELETE FROM
+	Artist
+WHERE
+	ArtistId = 276;
+
+
+
+SELECT
+	count(*)
+FROM
+	Customer
+WHERE
+	LastName LIKE 'G%'
+	
+SELECT
+	*
+FROM
+	Invoice
+WHERE
+	BillingCity LIKE 'Brussels'
+	
+SELECT
+	*
+FROM
+	Track
+WHERE
+	Composer LIKE 'unavailable'
+	
+SELECT
+   p.name
+   c.total
+FROM Peabody AS p
+LEFT OUTER JOIN Carmichael AS c
+ON p.tempID = c.tempID</sql><sql name="SQL 4">/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 1 Part 1
+*/
+
+SELECT
+	count(*)
+FROM
+	Invoice
+WHERE
+	InvoiceDate &gt;= '2011-01-01' 
+	AND InvoiceDate &lt;= '2012-12-31' 
+ORDER BY
+	InvoiceDate
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 1 Part 2
+*/
+
+SELECT
+	SUM(total)
+FROM
+	Invoice
+WHERE
+	InvoiceDate &gt;= '2011-01-01' 
+	AND InvoiceDate &lt;= '2012-12-31'
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 2 Part 1
+*/
+
+SELECT
+	c.FirstName AS [Customer First Name],
+	c.LastName AS [Customer Last Name],
+	i.Total AS [Invoice Amount]
+FROM 
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId=c.CustomerId
+WHERE
+	InvoiceDate &gt;= '2011-01-01' 
+	AND InvoiceDate &lt;= '2012-12-31'
+ORDER BY
+	i.Total DESC
+
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 2 Part 2
+*/
+
+SELECT
+	c.FirstName AS [Customer First Name],
+	c.LastName AS [Customer Last Name],
+	e.FirstName AS [Employee First Name],
+	e.LastName AS [Employee Last Name],
+	i.Total
+FROM 
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId=c.CustomerId
+INNER JOIN
+	Employee as e
+ON
+	e.EmployeeId=c.SupportRepId
+WHERE
+	InvoiceDate &gt;= '2011-01-01' 
+	AND InvoiceDate &lt;= '2012-12-31'
+ORDER BY
+	i.total DESC
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 2 Part 3
+*/	
+
+SELECT
+	Count(*)
+FROM
+	Invoice
+WHERE
+	total &gt; 
+					(
+							SELECT
+								avg(total)
+							FROM
+								Invoice
+							WHERE
+								InvoiceDate &gt;= '2011-01-01' 
+								AND InvoiceDate &lt;= '2012-12-31')
+	AND InvoiceDate &gt;= '2011-01-01' 
+	AND InvoiceDate &lt;= '2012-12-31'
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 2 Part 4
+*/
+
+SELECT
+	strftime('%Y', InvoiceDate) AS [Year],
+	round(avg(total), 2) AS [Average Transaction Amount]
+FROM
+	Invoice
+GROUP BY
+	Year
+	
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 3 Part 1
+*/
+
+SELECT
+	e.FirstName AS [Employee First Name],
+	e.LastName AS [Employee Last Name],
+	sum(i.Total) AS [Total Sales]
+FROM 
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId=c.CustomerId
+INNER JOIN
+	Employee as e
+ON
+	e.EmployeeId=c.SupportRepId
+WHERE
+		total &gt; 
+					(
+							SELECT
+								avg(total)
+							FROM
+								Invoice
+							WHERE
+								InvoiceDate &gt;= '2011-01-01' 
+								AND InvoiceDate &lt;= '2012-12-31')
+	AND InvoiceDate &gt;= '2011-01-01' 
+	AND InvoiceDate &lt;= '2012-12-31'
+GROUP BY
+	e.EmployeeId
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 3 Part 2
+*/	
+
+--For the highest selling employees during 2011 and 2012
+SELECT
+	e.FirstName AS [Employee First Name],
+	e.LastName AS [Employee Last Name],
+	sum(i.Total) AS [Total Sales],
+	round(sum(i.Total)* 0.15, 2) AS [Employee Commission]
+FROM 
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId=c.CustomerId
+INNER JOIN
+	Employee as e
+ON
+	e.EmployeeId=c.SupportRepId
+WHERE
+	InvoiceDate &gt;= '2011-01-01' 
+	AND InvoiceDate &lt;= '2012-12-31'
+GROUP BY
+	e.EmployeeId
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 3 Part 2
+*/
+
+--Jane Peacock	
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 3 Part 4
+*/	
+
+SELECT
+	c.FirstName,
+	c.LastName,
+	total AS [Transaction Amount]
+FROM 
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId=c.CustomerId
+INNER JOIN
+	Employee as e
+ON
+	e.EmployeeId=c.SupportRepId
+WHERE
+	e.LastName = 'Peacock' AND InvoiceDate &gt;= '2011-01-01' 
+	AND InvoiceDate &lt;= '2012-12-31'
+ORDER BY
+	total DESC
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 3 Part 5
+*/
+
+-- Customer: John Doeein
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 3 Part 6
+*/
+
+SELECT
+	*
+FROM 
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId=c.CustomerId
+INNER JOIN
+	Employee as e
+ON
+	e.EmployeeId=c.SupportRepId
+WHERE
+	c.LastName = 'Doeein' 
+	
+--Doesn't have any address information
+
+/*
+Created By: Nathan Bradley
+Create Date: 08/22/2023
+Description: Project Challenge 3 Part 6
+*/
+
+--Person of Interest: Jane Peacock</sql><current_tab id="0"/></tab_sql></sqlb_project>
